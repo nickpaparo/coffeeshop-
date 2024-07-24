@@ -1,4 +1,4 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -46,6 +46,7 @@ ul {
 .header__nav--color {
     color: #5BACC3;
 }
+*/
 
 .hero {
     background-image: url("../assets/images/coffee-circle.jpg");

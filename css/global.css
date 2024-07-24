@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+a:link {
+    text-decoration: none;
+    padding-right: 1em;
+}
+
+ul {
+    text-align: center;
+    align-content: center;
+}
+
 .header__nav {
     display: flex;
     background-color: #fff0ed;
