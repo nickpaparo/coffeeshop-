@@ -1,0 +1,248 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:link {
+    text-decoration: none;
+    padding-right: 1em;
+}
+
+.header__nav {
+    display: inline-block;
+    width: 100%;
+    background-color: #fff0ed;
+    padding-top: 1.75rem;
+    padding-bottom: 2rem;
+    padding-left: 0.5rem;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.header__logo {
+    font-size: 3.3rem;
+    font-weight: 300;
+    padding-left: 1rem;
+    color: #393939;
+}
+
+.header__nav--cta {
+    font-size: 1.3rem;
+    color: #393939;
+}
+
+.header__nav--color {
+    color: #5BACC3;
+}
+
+
+.hero {
+    background-color: #fff0ed;
+    width: 100%;
+    padding-bottom: 5%;
+    flex: 1;
+    flex-direction: column;
+}
+
+.hero__blocks {
+    display: flex;
+    flex: 1;
+    align-content: center;
+    flex-direction: row;
+}
+
+
+.hero__heading {
+    align-items: center;
+    vertical-align: middle;
+}
+
+
+.hero__title {
+    font-size: 3.75rem;
+    display: flex;
+    font-weight: 300;
+    color: #393939;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 40%;
+}
+
+.hero__copy {
+    font-size: 1.125rem;
+    display: flex;
+    color: #393939;
+    margin-top: 2rem;
+    margin-left: 10%;
+    margin-right: 40%;
+}
+
+.hero__image {
+    margin-left: 30%;
+    margin-right: 70%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    flex-direction: row;
+}
+
+.hero__button {
+    border: none;
+    background-color: #5bacc3;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.3rem;
+    margin-left: 10%;
+    margin-right: 40%;
+    margin-top: 2rem;
+}
+
+.products {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.products__heading {
+    text-align: center;
+    color: #393939;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 3.75rem;
+    font-weight: 300;
+}
+
+.products__button {
+    box-shadow: 0.25rem 0.25rem 0.5rem #393939;
+    background-color: #fff;
+    vertical-align: middle;
+    display: inline-flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin: 0 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    border-radius: 2%;
+}
+
+.products__view {
+    background-color: #5bacc3;
+    font-size: 1.3rem;
+    color: #fff;
+    align-items: middle;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 1rem;
+    margin-top: 50%;
+    margin-bottom: 50%;
+}
+
+.products__name {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.products__price {
+    text-align: center;
+    color: #5bacc3;
+    padding-top: 1rem;
+}
+
+.discount {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.discount__button {
+    font-size: 2.8125rem;
+    font-weight: 300;
+    width: 90%;
+    background-color: #393939;
+    color: #fff;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2rem;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.discount__code {
+    font-weight: 700;
+    font-size: 2.8125rem;
+}
+
+.footer {
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    background-color: #fff0ed;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer__block {
+    align-items: center;
+    flex-direction: column;
+    vertical-align: middle;
+    display: flex;
+    flex: 1;
+}
+
+.footer__address {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-bottom: 4rem;
+    margin-right: 5%;
+ 
+}
+
+.footer__hours {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-bottom: 4rem
+}
+
+.footer__heading {
+    font-size: 2rem;
+    display: flex;
+    font-weight: 300;
+    color: #393939;
+    margin-bottom: 1.25rem;
+}
+
+.foot__copy {
+    color: #393939;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.footer__social {
+    display: inline;
+    margin-right: 15%;
+    margin-left: 5%;
+    margin-bottom: 4rem;
+}
+
+.footer__image {
+    height: 20%;
+
+}
