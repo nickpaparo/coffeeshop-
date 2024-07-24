@@ -1,14 +1,45 @@
-*
-
-body {
-    font-family: 'Open Sans';
-    font-weight: 400;
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-.header__nav-list {
+.header__nav {
     display: flex;
-    align-items: center;
+    background-color: #fff0ed;
     list-style-type: none;
+    padding-top: 1.75rem;
+    padding-bottom: 2rem;
+    padding-left: 0.5rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.header__nav--logo {
+    font-size: 3.3rem;
+    font-weight: 300;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #393939;
+    align-items: center;
+}
+
+.header__nav-cta {
+    font-size: 1.3rem;
+    align-content: center;
+    color: #393939;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.header__nav-cta--color {
+    font-size: 1.3rem;
+    align-content: center;
+    color: #5BACC3;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
