@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../css/landing.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <img
         class="header__nav--image"
         src="/assets/logos/coffee-beans-logo-and-footer.svg"
@@ -37,9 +37,11 @@
             Coffee is a brewed drink prepared from roasted coffee beans, the
             seeds of berries from certain Coffea species.
           </p>
+          <div class="hero__button-border">
           <button class="hero__button">
             <a>Shop Now</a>
           </button>
+        </div>
         </div>
         <div>
           <img
@@ -60,12 +62,14 @@
               alt="coffee beans bag smaller"
             />
             <h3 class="products__name">Coffee Beans</h3>
-            <p class="products__price">$18.99</p>
+            <p class="products__description">Pack of 3</p>
+            <p class="products__price">$19</p>
           </div>
           <div class="products__button">
             <img src="assets/images/coldbrew.png" alt="hot coffee container" />
             <h3 class="products__name">Cold Brew</h3>
-            <p class="products__price">$4.99</p>
+            <p class="products__description">1 can</p>
+            <p class="products__price">$5</p>
           </div>
           <div class="products__button">
             <img
@@ -74,7 +78,8 @@
               alt="inhouse brew hot coffee"
             />
             <h3 class="products__name">In-house Brew</h3>
-            <p class="products__price">$2.99</p>
+            <p class="products__description">1 cup</p>
+            <p class="products__price">$3</p>
           </div>
         </div>
         <div>
@@ -83,7 +88,36 @@
           </button>
         </div>
       </section>
-      <section>
+      <secion class="about">
+        <div class="about__info">
+        <div class="about__header">
+        <h2>We're Different</h2>
+        <p class="about__copy">We grow and roast our own beans. Every bean, every cup, every step of the way, we strive for excellence.</p>
+      </div>
+      <div class="about__icon-row">
+        <img class="about__icon" src="./assets/images/planting.svg" alt="line drawing of young plants"
+        >
+        <img class="about__icon" src="./assets/images/coffee-beans.svg" alt="line drawing of coffee beans"
+        >
+        <img class="about__icon" src="./assets/images/coffee-cup.svg" alt="line drawing of coffee cup"
+        >
+        </div>
+        <div class="about__info">
+          <button class="about__button"><a>Learn More</a></button>
+        </div>
+      </div>
+      </section>
+        <div class="about__image">
+        <div class="about__image-container">
+          <div class="about__image-background">
+            <img class="about__image-layer1" src="./assets/images/coldbrewbackground.png"
+            >
+            <img class="about__image-layer2" src="./assets/images/tiltedcan.png" alt="to go can of cold brew tilted on an angle">
+          </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section>
         <div class="discount">
           <button class="discount__button" href="#menu.html">
             <p class="discount__copy">
@@ -92,7 +126,7 @@
             <p class="discount__code">FirstNitro</p>
           </button>
         </div>
-      </section>
+      </section> -->
     </main>
     <footer class="footer">
       <div class=".footer__block">

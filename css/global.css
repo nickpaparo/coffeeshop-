@@ -11,21 +11,22 @@ a:link {
     padding-right: 1em;
 }
 
-ul {
-    text-align: center;
-    align-content: center;
+.header {
+    display: flex;
+    background-color: #fff0ed;
+    align-items: center;
 }
 
 .header__nav {
-    display: flex;
-    background-color: #fff0ed;
     list-style-type: none;
-    padding-top: 1.75rem;
-    padding-bottom: 2rem;
-    padding-left: 0.5rem;
+    gap: 1rem;
     text-decoration: none;
     font-size: 1.3rem;
     align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    display: flex;
+    
 }
 
 .header__nav--logo {
