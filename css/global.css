@@ -15,6 +15,12 @@ a:link {
     display: flex;
     background-color: #fff0ed;
     align-items: center;
+    justify-content: space-between;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
 }
 
 .header__nav {
@@ -24,18 +30,20 @@ a:link {
     font-size: 1.3rem;
     align-items: center;
     text-align: center;
-    justify-content: flex-end;
     display: flex;
-    
+}
+
+.header__nav--image {
+    margin-left: 1rem;
 }
 
 .header__nav--logo {
     font-size: 3.3rem;
     font-weight: 300;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
     color: #393939;
     align-items: center;
+    display: flex;
 }
 
 .header__nav-cta {
@@ -45,6 +53,7 @@ a:link {
     justify-content: space-between;
     margin-right: 1rem;
     margin-left: 1rem;
+    display: flex;
 }
 
 .header__nav-cta--color {
