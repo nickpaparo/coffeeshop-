@@ -14,30 +14,35 @@
 
   <body>
     <header>
+      <img
+        class="header__nav--image"
+        src="/assets/logos/coffee-beans-logo-and-footer.svg"
+        alt="coffee beans logo"
+      />
+      <h2 class="header__nav--logo" href="../index.html">nitro</h2>
       <nav>
         <ul class="header__nav">
-        <li><img class="header__nav--image"
-          src="/assets/logos/coffee-beans-logo-and-footer.svg"
-          alt="coffee beans logo"
-        /></li>
-        <li><h2 class="header__nav--logo" href="">nitro</h2></li>
-        <li class="header__nav-cta" href="">ABOUT</li>
-        <li class="header__nav-cta" href="">MENU</li>
-        <li class="header__nav-cta--color" href="">SHOP NOW</li>
-    </ul>
+          <li class="header__nav-cta">ABOUT</li>
+          <li class="header__nav-cta" href="./menu.html">MENU</li>
+          <li class="header__nav-cta--color" href="./menu.html#card">
+            SHOP NOW
+          </li>
+        </ul>
       </nav>
     </header>
     <div class="hero">
       <h1 class="hero__box">MENU</h1>
     </div>
     <nav class="nav">
-          <a class="nav__link" href="#category-hot-drinks">HOT DRINKS</a>
-          <a class="nav__link" href="#category-cold-drinks">COLD DRINKS</a>
-          <a class="nav__link" href="#category-pastries">PASTRIES</a>
+      <ul>
+        <li><a class="nav__link" href="#card__header-hot">HOT DRINKS</a></li>
+        <a class="nav__link" href="#card__header-cold">COLD DRINKS</a>
+        <a class="nav__link" href="#card__header-pastries">PASTRIES</a>
+      </ul>
     </nav>
     <main>
-      <section class="card">
-        <h2 class="card__header">Hot Drinks</h2>
+      <section id="card" class="card">
+        <h2 id="card__header-hot" class="card__header-hot">Hot Drinks</h2>
         <h3 class="card__item">In-House Brew</h3>
         <p class="card__copy">
           Our in-house medium roast is a classic balance between sweet vanilla,
@@ -54,7 +59,7 @@
         <p class="card__price">$4.99</p>
       </section>
       <section class="card__color">
-        <h2 class="card__header">Cold Drinks</h2>
+        <h2 id="card__header-cold" class="card__header-cold">Cold Drinks</h2>
         <h3 class="card__item">Cold Brew</h3>
         <p class="card__copy">
           Our bright and delicious coffee blend, brewed over ice to give you a
@@ -70,7 +75,9 @@
         <p class="card__price">$6.99</p>
       </section>
       <section class="card">
-        <h2 class="card__header">Pastries</h2>
+        <h2 id="card__header-pastries" class="card__header-pastries">
+          Pastries
+        </h2>
         <h3 class="card__item">Bacon Oatmeal Raisin Cookie</h3>
         <p class="card__copy">
           An infused bacon, sugar and egg mixture is folded into a perfect blend

@@ -111,7 +111,21 @@ ul {
     padding-bottom: 5rem;
 }
 
-.card__header {
+.card__header-hot {
+    font-size: 3.75rem;
+    font-weight: 300;
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+.card__header-cold {
+    font-size: 3.75rem;
+    font-weight: 300;
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
+.card__header-pastries {
     font-size: 3.75rem;
     font-weight: 300;
     margin-top: 0;

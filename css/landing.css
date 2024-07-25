@@ -49,16 +49,16 @@
     background-color: #fff0ed;
     padding-bottom: 7rem;
     display: flex;
-    flex: 1;
-    flex-direction: row;
-    align-content: center;
 }
 
-.hero__heading {
-    align-items: center;
-    vertical-align: middle;
-    margin-right: 0;
+.hero__info {
+    align-items:flex-start;
+    display: flex;
+    margin: 0 auto;
     flex-direction: column;
+    justify-content: center;
+    text-align:left;
+    width: 50%
 }
 
 
@@ -67,25 +67,17 @@
     display: flex;
     font-weight: 300;
     color: #393939;
-    margin-top: 2rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    max-width: 25rem;
+    margin-bottom: 2rem;
 }
 
 .hero__copy {
     font-size: 1.125rem;
+    max-width: 25rem;
     display: flex;
     color: #393939;
-    margin-top: 2rem;
-    margin-left: 10rem;
-    margin-right: 40rem;
+    margin-bottom: 2rem;
 }
-
-.hero__image-block {
-    display: flex;
-    flex: 1;
-    margin-right: 15rem;
-}   
 
 .hero__button {
     border: none;
@@ -93,10 +85,15 @@
     color: #fff;
     padding: 1rem;
     font-size: 1.3rem;
-    margin-left: 10rem;
-    margin-right: 30rem;
-    margin-top: 2rem;
+    max-width: 25rem;
 }
+
+.hero__image-block {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    
+}   
 
 .products {
     background-color: #f7f7f7;
@@ -116,7 +113,7 @@
 }
 
 .products__button {
-    box-shadow: 0.25rem 0.25rem 0.5rem #cacaca;
+    box-shadow: 0.25rem 0.25rem 0.25rem #d3d3d3;
     background-color: #fff;
     vertical-align: middle;
     display: inline-flex;
@@ -158,30 +155,32 @@
 }
 
 .discount {
-    width: 100%;
+    margin: 4rem;
     display: flex;
     justify-content: center;
+    align-self: center;
+
 }
 
 .discount__button {
-    width: 85rem;
+    display: flex;
     background-color: #393939;
     color: #fff;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    padding: 1.5rem;
     text-align: center;
     vertical-align: middle;
+    padding: 2rem;
 }
 
-.discount-copy {
+.discount__copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 2.8125rem;
     font-weight: 300;
+    
 }
 
-.discount__copy--code {
+.discount__code {
     font-weight: 700;
     font-size: 2.8125rem;
 }
@@ -221,13 +220,7 @@
     margin-bottom: 1rem;
 }
 
-.footer__social {
-    display: inline;
-    margin-right: 4rem;
-    margin-left: 2rem;
-    margin-bottom: 4rem;
-}
-
 .footer__image {
     height: 3rem;
+    cursor: pointer;
 }
