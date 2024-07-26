@@ -14,13 +14,13 @@
   <body>
     <header class="header">
       <div class="header__left">
-      <img
-        class="header__nav--image"
-        src="/assets/logos/coffee-beans-logo-and-footer.svg"
-        alt="coffee beans logo"
-      />
-      <h2 class="header__nav--logo" href="../index.html">nitro</h2>
-    </div>
+        <img
+          class="header__nav--image"
+          src="/assets/logos/coffee-beans-logo-and-footer.svg"
+          alt="coffee beans logo"
+        />
+        <h2 class="header__nav--logo" href="../index.html">nitro</h2>
+      </div>
       <nav>
         <ul class="header__nav">
           <li class="header__nav-cta">ABOUT</li>
@@ -39,10 +39,12 @@
             Coffee is a brewed drink prepared from roasted coffee beans, the
             seeds of berries from certain Coffea species.
           </p>
+          <div class="hero__button-wrapper">
           <div class="hero__button-border">
-          <button class="hero__button">
-            <a>Shop Now</a>
-          </button>
+            <button class="hero__button-cta">
+              <a>Shop Now</a>
+            </button>
+          </div>
         </div>
         </div>
         <div>
@@ -85,41 +87,59 @@
           </div>
         </div>
         <div>
-          <button class="products__view" href="./pages/menu.html#card">
-            View All
-          </button>
+          <div class="products__view-container">
+            <button class="products__view-button" href="./pages/menu.html#card">
+              View All
+            </button>
+          </div>
         </div>
       </section>
-      <secion class="about">
+      <section id="#about" class="about">
         <div class="about__info">
-        <div class="about__header">
-        <h2>We're Different</h2>
-        <p class="about__copy">We grow and roast our own beans. Every bean, every cup, every step of the way, we strive for excellence.</p>
-      </div>
-      <div class="about__icon-row">
-        <img class="about__icon" src="./assets/images/planting.svg" alt="line drawing of young plants"
-        >
-        <img class="about__icon" src="./assets/images/coffee-beans.svg" alt="line drawing of coffee beans"
-        >
-        <img class="about__icon" src="./assets/images/coffee-cup.svg" alt="line drawing of coffee cup"
-        >
+          <div class="about__header">
+            <h2 class="about__header-copy">We're Different</h2>
+            <p class="about__copy">
+              We grow and roast our own beans. Every bean, every cup, every step
+              of the way, we strive for excellence.
+            </p>
+          </div>
+          <div class="about__icon-row">
+            <img
+              class="about__icon"
+              src="./assets/images/planting.svg"
+              alt="line drawing of young plants"
+            />
+            <img
+              class="about__icon"
+              src="./assets/images/coffee-beans.svg"
+              alt="line drawing of coffee beans"
+            />
+            <img
+              class="about__icon"
+              src="./assets/images/coffee-cup.svg"
+              alt="line drawing of coffee cup"
+            />
+          </div>
+          <button class="about__button">Learn More</button>
         </div>
-        <div class="about__info">
-          <button class="about__button"><a>Learn More</a></button>
-        </div>
-      </div>
-      </section>
         <div class="about__image">
-        <div class="about__image-container">
-          <div class="about__image-background">
-            <img class="about__image-layer1" src="./assets/images/coldbrewbackground.png"
-            >
-            <img class="about__image-layer2" src="./assets/images/tiltedcan.png" alt="to go can of cold brew tilted on an angle">
-          </div>
+          <div class="about__image-container">
+            <img
+              class="about__image-layer2"
+              src="./assets/images/tiltedcan.png"
+              alt="to go can of cold brew tilted on an angle"
+            />
+            <div class="about__image-background">
+              <img
+                class="about__image-layer1"
+                src="./assets/images/coldbrewbackground.png"
+                alt="blue wavy background"
+              />
+            </div>
           </div>
         </div>
       </section>
-      <!-- <section>
+      <section>
         <div class="discount">
           <button class="discount__button" href="#menu.html">
             <p class="discount__copy">
@@ -128,7 +148,7 @@
             <p class="discount__code">FirstNitro</p>
           </button>
         </div>
-      </section> -->
+      </section>
     </main>
     <footer class="footer">
       <div class=".footer__block">

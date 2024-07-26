@@ -31,6 +31,7 @@ a:link {
     align-items: center;
     text-align: center;
     display: flex;
+    padding-right: 1.25rem;
 }
 
 .header__nav--image {
