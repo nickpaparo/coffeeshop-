@@ -83,7 +83,7 @@ ul {
 }
 
 .hero__box-wrapper {
-    border: #5BACC3 solid 5px;
+    border: black solid 5px;
     position: absolute;
     display: flex;
     
