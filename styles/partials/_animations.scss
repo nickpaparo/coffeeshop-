@@ -1,0 +1,21 @@
+@keyframes spin {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes graphite-blue-background {
+    0% {
+        background-color: #393939;
+    }
+    50% {
+        background-color: #5bacc3;
+    }
+    100% {
+        background-color: #393939;
+    }
+}

@@ -60,21 +60,38 @@
         <h2>
           <p class="products__heading">Our Products</p>
         </h2>
-        <div>
+        <div class="products__lineup">
           <div class="products__button">
             <img
+              class="products__image"
               src="assets/images/coffeebeans.png"
               alt="coffee beans bag smaller"
             />
-            <h3 class="products__name">Coffee Beans</h3>
-            <p class="products__description">Pack of 3</p>
-            <p class="products__price">$19</p>
+            <div class="products__info-container">
+            <div class="products__name-container">
+              <h3 class="products__name">Coffee Beans</h3>
+              <p class="products__description">Pack of 3</p>
+            </div>
+              <div class="products__price-container">
+                <p class="products__price-copy">$19</p>
+              </div>
+            </div>
           </div>
           <div class="products__button">
-            <img src="assets/images/coldbrew.png" alt="hot coffee container" />
-            <h3 class="products__name">Cold Brew</h3>
-            <p class="products__description">1 can</p>
-            <p class="products__price">$5</p>
+            <img
+              class="products__image"
+              src="assets/images/coldbrew.png"
+              alt="hot coffee container"
+            />
+            <div class="products__info-container">
+              <div class="products__name-container">
+                <h3 class="products__name">Cold Brew</h3>
+                <p class="products__description">1 can</p>
+              </div>
+              <div class="products__price-container">
+                <p class="products__price-copy">$5</p>
+              </div>
+            </div>
           </div>
           <div class="products__button">
             <img
@@ -82,10 +99,16 @@
               src="assets/images/inhousebrew.png"
               alt="inhouse brew hot coffee"
             />
-            <h3 class="products__name">In-house Brew</h3>
-            <p class="products__description">1 cup</p>
-            <p class="products__price">$3</p>
-          </div>
+            <div class="products__info-container">
+            <div class="products__name-container">
+              <h3 class="products__name">In-house Brew</h3>
+              <p class="products__description">1 cup</p>
+              </div>
+              <div class="products__price-container">
+                <p class="products__price-copy">$3</p>
+              </div>
+            </div>
+            </div>
         </div>
         <div>
           <div class="products__view-container">
@@ -153,6 +176,12 @@
     </main>
     <footer class="footer">
       <div class=".footer__block">
+        <img
+        class="footer__block--right"
+        src="./assets/logos/coffee-beans-logo-and-footer.svg"
+        >
+      </div>
+      <div class=".footer__block">
         <h3 class="footer__heading">Address</h3>
         <p>503 Broadway Penthouse<br />New York</p>
       </div>
@@ -181,6 +210,12 @@
           href="https://www.instagram.com/"
           alt="Instagram logo"
         />
+      </div>
+      <div class=".footer__block">
+        <img
+        class="footer__block--left"
+        src="./assets/logos/coffee-beans-logo-and-footer.svg"
+        >
       </div>
     </footer>
   </body>

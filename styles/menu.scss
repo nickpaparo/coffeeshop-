@@ -1,54 +1,6 @@
 @use './partials/global.scss' as *;
-
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-}
-
-a:link {
-    text-decoration: none;
-    padding-right: 1em;
-}
-
-ul {
-    text-align: center;
-    align-content: center;
-}
-
-.header__nav {
-    display: inline-block;
-    width: 100%;
-    background-color: #fff0ed;
-    padding-top: 1.75rem;
-    padding-bottom: 2rem;
-    padding-left: 0.5rem;
-    vertical-align: middle;
-    text-decoration: none;
-    font-size: 1.3rem;
-}
-
-.header__logo {
-    font-size: 3.3rem;
-    font-weight: 300;
-    padding-left: 1rem;
-    color: #393939;
-}
-
-.header__nav--cta {
-    font-size: 1.3rem;
-    color: #393939;
-}
-
-.header__nav--color {
-    color: #5BACC3;
-}
-*/
+@use './partials/variables' as *;
+@use './partials/mixins' as *;
 
 .hero {
     text-align: center;
@@ -68,8 +20,8 @@ ul {
 }
 
 .hero__box {
-    background-color: #393939;
-    color: white;
+    background-color: $graphite;
+    color: $white;
     width: 18.75rem;
     height: 12.5rem;
     font-size: 3.75rem;
@@ -85,14 +37,14 @@ ul {
 }
 
 .hero__box-wrapper {
-    border: black solid 5px;
+    border: $blue solid 5px;
     position: absolute;
     display: flex;
     
 }
 
 .nav {
-    background-color: #393939;
+    background-color: $graphite;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,7 +63,7 @@ ul {
 }
 
 .nav-cta {
-    color: #fff;
+    color: $white;
     flex: 0 1 auto;
     font-size: 1.3rem;
     font-weight: 400;
@@ -127,15 +79,15 @@ ul {
 }
 
 .card {
-    background-color: #fff0ed;
+    background-color: $pink;
     text-align: center;
-    color: #393939;
+    color: $graphite;
     padding-bottom: 2rem;
 }
 
 .card__color {
-    background-color: #f7f7f7;
-    color: #393939;
+    background-color: $light-grey;
+    color: $graphite;
     text-align: center;
     padding-bottom: 5rem;
 }
@@ -180,6 +132,6 @@ ul {
 }
 
 .card__price {
-    color: #5BACC3;
+    color: $blue;
     margin-top: 1rem;
 }
