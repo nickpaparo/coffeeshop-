@@ -36,16 +36,12 @@
   margin-bottom: 2rem;
 }
 
-.hero__button-wrapper {
-  position: relative;
-  display: flex;
-}
-
 .hero__button-border {
   display: flex;
   border: 2px solid black;
   position: absolute;
 }
+
 .hero__button-cta {
   background-color: $blue;
   font-size: 1.3rem;
@@ -61,6 +57,11 @@
   position: relative;
   top: 5px;
   left: 5px;
+
+  &:hover {
+    transform: translate(-5px, -5px);
+    border: none;
+  }
 }
 
 .hero__image-block {
@@ -74,6 +75,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .products__heading {
@@ -166,9 +168,19 @@
   font-weight: 700;
 }
 
+.products__view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .products__view-container {
   display: flex;
   justify-content: center;
+  border: 2px solid black;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  position: relative;
 }
 
 .products__view-button {
@@ -177,11 +189,17 @@
   color: #fff;
   width: 11.25rem;
   padding: 1rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  border: none;
+  margin: 0;
   display: flex;
   justify-content: center;
+  border: none;
+  position: relative;
+  top: 5px;
+  left: 5px;
+
+  &:hover {
+    transform: translate(-5px, -5px);
+  }
 }
 
 .about {
@@ -225,16 +243,30 @@
   max-width: 4rem;
 }
 
-.about__button {
-  border: none;
-  background-color: $blue;
-  color: $white;
-  padding: 1.25rem;
-  font-size: 1.3rem;
+.about__button-container {
+  display: flex;
+  border: 2px solid black;
   width: 11.25rem;
-  position: relative;
-  z-index: -1;
 }
+
+.about__button {
+    background-color: $blue;
+    font-size: 1.3rem;
+    color: #fff;
+    width: 11.25rem;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    border: none;
+    position: relative;
+    top: 5px;
+    left: 5px;
+  
+    &:hover {
+      transform: translate(-5px, -5px);
+    }
+  }
 
 .about__image {
   width: 50%;
