@@ -169,9 +169,9 @@
 }
 
 .products__view {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .products__view-container {
@@ -250,23 +250,23 @@
 }
 
 .about__button {
-    background-color: $blue;
-    font-size: 1.3rem;
-    color: #fff;
-    width: 11.25rem;
-    padding: 1rem;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    border: none;
-    position: relative;
-    top: 5px;
-    left: 5px;
-  
-    &:hover {
-      transform: translate(-5px, -5px);
-    }
+  background-color: $blue;
+  font-size: 1.3rem;
+  color: #fff;
+  width: 11.25rem;
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  border: none;
+  position: relative;
+  top: 5px;
+  left: 5px;
+
+  &:hover {
+    transform: translate(-5px, -5px);
   }
+}
 
 .about__image {
   width: 50%;
